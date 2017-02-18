@@ -1,9 +1,9 @@
 <?php
-//header("content-type:text/html;charset:utf-8");
-//include 'class/Connect.php';
+header("content-type:text/html;charset:utf-8");
+include 'class/Connect.php';
 include 'config/config.php';
 //require_once 'class/MMySQL.class.php';
-include 'class/MysqlDb.php';
+//include 'class/MysqlDb.php';
 
 
 define('GI', str_replace("\\", '/', dirname(__FILE__)));

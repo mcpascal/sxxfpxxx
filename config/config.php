@@ -9,4 +9,4 @@ define('DB_PORT','3306');
 
 require_once '../class/MysqlDb.php';
 $db = MysqlDb::getInstance(DB_HOST,DB_USER,DB_PWD,DB_NAME,DB_PORT,DB_CHARSET);
-var_dump($db);
+//var_dump($db);
