@@ -1,0 +1,20 @@
+﻿.indexBody{margin:0;}
+.indexBg{ z-index:999; position:absolute; background-color:#333333;filter:alpha(opacity=70);opacity:0.7;}
+.indexRight{ position:absolute; z-index:800; height:320px; overflow:hidden;}
+.indexRight img{ margin-bottom:5px; cursor:pointer}
+.indexWin1{z-index:1000; position:absolute; overflow:hidden; background-image:url(../images/winBg1.jpg)}
+.indexWin2{z-index:1000; position:absolute; overflow:hidden; background-image:url(../images/winBg1.jpg)}
+.indexWin1Title,.indexWin2Title{width:300px; height:29px; line-height:29px; text-align:left; font-size:12px; color:#333333; font-weight:bold; padding:0 0 0 10px; float:left}
+.indexWin1Close,.indexWin2Close{width:50px; float:right; text-align:right; padding:1px;}
+.indexWin1Close,.indexWin2Close img{ cursor:pointer}
+.indexWin1Content{width:360px; height:60px; padding-top:20px; float:left; line-height:30px; font-size:12px; color:red; text-align:center;}
+.indexWin1Button,.indexWin2Button{width:360px; text-align:center}
+.indexWin1Button img{ margin:0 20px; cursor:pointer}
+.indexWin2Button img{ margin:0 20px; cursor:pointer}
+.indexWin2Content{width:360px; height:30px; padding-top:20px; float:left; line-height:30px; font-size:12px; color:#333333; text-align:center;}
+.indexWin2Err{width:360px; height:30px; padding:10px 0; float:left; line-height:30px; font-size:12px; color:red; text-align:center;}
+.indexWin2Err img{vertical-align:middle; margin-right:10px;}
+
+.indexWin3{width:200px; height:50px; background-color:#FFFFFF; border:1px solid #E0E0E0; overflow:hidden; text-align:center; line-height:50px; z-index:1100; position:absolute;}
+.indexWin3Img{float:left; margin:15px 15px 0 50px;}
+.indexWin3Content{float:left; color:#333333}

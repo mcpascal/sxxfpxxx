@@ -1,0 +1,11 @@
+<?php
+//header("content-type:text/html;charset:utf-8");
+include 'class/Connect.php';
+include 'config/config.php';
+//require_once 'class/MMySQL.class.php';
+
+define('GI', str_replace("\\", '/', dirname(__FILE__)));
+$conn=new Connect(DB_HOST,DB_USER,DB_PWD,DB_NAME,DB_PORT);
+
+print_r($conn);
+?>

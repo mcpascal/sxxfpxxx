@@ -1,0 +1,64 @@
+﻿html{overflow-x:hidden; overflow-y:auto;}
+body {font-family:宋体;font-size:12px;background-color:#FFFFFF; padding:8px 12px 8px 4px; margin:0px; text-align:center;}
+a{text-decoration:none;color:#555555;}
+a:visited{text-decoration:none;color:#555555;}
+a:hover{text-decoration:underline;color:#FF9933;}
+table{border-left:1px solid #EEEEEE;border-top:1px solid #EEEEEE; margin-top:10px;}
+td{border-bottom:1px solid #EEEEEE;border-right:1px solid #EEEEEE;height:35px;font-size:12px;font-family:"宋体"; color:#555555}
+.tdTitle td{ background-color:#FCFCFC; color:#555555}
+
+.main{width:100%; height:84px; overflow:hidden; border:1px solid #D7D7D7; padding:1px;}
+.main1{width:100%; height:100%; background-color:#F5F5F5; text-align:left;}
+.main1Left{float:left}
+.main1Left img {margin:18px }
+.main1Rihgt{float:left; color:#666666; padding:10px 0; line-height:30px;}
+.main1Rihgt a{color:#335B92; margin-left:20px; text-decoration:underline}
+.main1RightUp{color:#335B92; font-size:14px;}
+.title{width:100%; height:36px; overflow:hidden; border:1px solid #D7D7D7; padding:1px;}
+.title1{width:100%; height:100%; background-color:#F5F5F5; text-align:left;}
+.title1Left{margin:11px; margin-bottom:0px; float:left;}
+.title1Center{float:left; font-size:14px; font-weight:bold; line-height:36px; color:#555555}
+.title1Center_small{float:left; font-size:12px; font-weight:bold; line-height:36px; color:#555555}
+.title1Right{width:350px; line-height:36px; height:36px;  float:right; text-align:left; margin-right:10px; color:#555555}
+.title1Right a{margin-left:20px;}
+.main2{width:100%; margin:10px 0;padding:0 10px 10px 10px; text-align:left; float:left}
+.main2Cell{width:100px; padding:20px 25px 0 25px;  height:100px; overflow:hidden; text-align:center; float:left}
+.main2CellFont{font-size:14px; color:#335B92; font-weight:bold; padding-top:10px;}
+.main3{text-align:left; padding:10px 0 10px 20px; float:left; color:#666666;}
+.main3 td{ height:28px;color:#666666;}
+.main3 table{ height:28px; margin:0}
+.trBg{background-color:#FAFAFA;}
+.trBg1{background-color:#FFFFFF;}
+
+
+
+.tdLeft{color: #666666;font-weight: bold;}
+.text{width:200px;height:23px;border:1px solid #999999;margin-left:5px;margin-right:10px;line-height:20px;color:#333333;}
+.text60{width:65px;height:23px;border:1px solid #999999;margin-left:5px;margin-right:10px;line-height:20px;color:#333333;}
+.text100{width:100px;height:23px;border:1px solid #999999;margin-left:0px;margin-right:0px;line-height:20px;color:#333333;}
+.text50{width:50px;height:23px;border:1px solid #999999;margin-left:0px;margin-right:0px;line-height:20px;color:#333333;}
+.text350{width:350px;height:23px;border:1px solid #999999;margin-left:5px;margin-right:0px;line-height:20px;color:#333333;}
+.text500{width:500px;height:23px;border:1px solid #999999;margin-left:5px;margin-right:0px;line-height:20px;color:#333333;}
+.textOnlyunderline{height:23px;border:1px solid #999999;margin:0 3px;line-height:20px;border-left:0;border-top:0;border-right:0; width:80px;color:#333333;}
+.zhushi{color:#FF0000;}
+.textarea{width:350px;height:80px;margin-left:5px;margin-right:10px;color:#333333; border:1px solid #999999}
+.button{width:80px;height:30px;line-height:25px;margin-left:5px;}
+.red{color:#FF0000;}
+.select{margin:0 5px;}
+.checkbox_more{margin-left:10px;}
+.img_null{width:100px;height:100px;border:0px;}
+.num{margin-left:5px;color:#0099FF;}
+.yellow{color:#FF9900;}	
+.green{color:#009900;}	
+.blue{color:#0066FF;}
+.padding5{ padding-left:5px;}
+.divAll{width:100%;}
+.divZong{width:1002px;}
+.aLoginDiv{width:406px; height:226px; background-image:url(../images/bk.png); margin:180px 0px 0px 0px; padding:100px 0px 0px 60px;}
+.aLoginDiv1{color:#505050; text-align:left; font-size:14px; letter-spacing:2px; line-height:50px;}
+.aLoginDiv1 table{ border:0}
+.aLoginTxt1{padding:0; margin:0; border:1px solid #C9C9C9; width:257px; height:30px; line-height:30px; margin-left:10px;}
+.aLoginSubmit{background-image:url(images/admin_login.gif); width:76px; height:70px; border:0; padding:0; margin:0; margin-left:25px;}
+.aLoginCode{padding:0; margin:0; border:1px solid #C9C9C9; width:100px; height:30px; line-height:30px; margin-left:10px;}
+.aLoginDiv table{border:0;}
+.aLoginDiv td{border:0;}

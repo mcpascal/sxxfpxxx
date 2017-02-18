@@ -1,0 +1,14 @@
+﻿body{ margin:0px; font-size:12px}
+.all{ width:200px; margin:0 0 0 13px; padding-right:13px; overflow:hidden; padding-top:7px;}
+.className{ border-bottom:1px solid #1F3C65;  height:40px; background:url(../images/className.png) no-repeat 4px 12px; text-align:right; line-height:60px; overflow:hidden;}
+.className a{text-decoration:none; color:#2A4B78; color:#FF9933}
+.title{ font-size:14px; color:#404040; height:34px; line-height:34px; width:170px; padding:0 10px; float:right; margin-top:10px; cursor:pointer; }
+.titleMouseOver{ font-size:14px; color:#404040; height:34px; line-height:34px; width:170px; padding:0 10px; float:right; margin-top:10px; cursor:pointer; background-color:#E3EDFB;}
+.titleImg1{margin:0 0px 5px 0; vertical-align:middle}
+.titleImg2{margin:14px 0 0 0; float:right}
+.linkCon{ border-bottom:1px solid #DDDDDD; width:200px; overflow:hidden}
+.linkConHidden{ border-bottom:1px solid #DDDDDD; width:200px; overflow:hidden; display:none}
+.link{ width:136px; margin-left:47px; padding-right:4px; height:26px; line-height:26px; font-size:12px; overflow:hidden; background:url(../images/leftLinkImg.png) no-repeat 136px 9px; }
+.link a{color:#335B92; text-decoration:none; font-size:12px; line-height:26px; letter-spacing:1px;}
+.link a:visited{color:#335B92; text-decoration:none; font-size:12px; line-height:26px;}
+.link a:hover{color:#335B92; text-decoration:underline; font-size:12px; line-height:26px;}

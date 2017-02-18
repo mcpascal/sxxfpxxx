@@ -1,0 +1,20 @@
+<?php
+session_start();
+$password=$_POST["password"];
+if($_SESSION["adminPassword"]==""){
+	echo("-1");//需要重新登录
+	die();
+}
+if(!preg_match("/^\w{5,15}$/",$password)){
+	echo("-2");//密码格式错误
+	die();
+}
+if(strtolower($_SESSION["adminPassword"])!=strtolower(md5($password))){
+	echo("-3");//密码错误
+	die();
+}else{
+	$_SESSION["adminIfLeave"]="0";
+	echo("1");
+	die();
+}
+?>
