@@ -12,7 +12,7 @@ class MysqlDb
     static private $instance;
 
     // 连接数据库
-    private function __construct($host, $username, $password, $dbname, $port='3306', $charset='utf8')
+    private function __construct($host, $username, $password, $dbname, $port, $charset)
     {
         $this->link = mysql_connect($host.':'.$port, $username, $password);
         $this->query("SET NAMES {$charset}", $this->link);
@@ -34,7 +34,7 @@ class MysqlDb
         //return $connector;
 
         if (FALSE == (self::$instance instanceof self)) {
-            self::$instance = new self($host, $username, $password, $dbname, $port='3306', $charset='utf8');
+            self::$instance = new self($host, $username, $password, $dbname, $port, $charset);
         }
         return self::$instance;
     }
