@@ -9,7 +9,7 @@ include 'class/MysqlDb.php';
 define('GI', str_replace("\\", '/', dirname(__FILE__)));
 //$conn=new Connect(DB_HOST,DB_USER,DB_PWD,DB_NAME,DB_PORT);
 
-$link = MysqlDb::getInstance(DB_HOST,DB_USER,DB_PWD,DB_NAME,DB_PORT,DB_CHARSET);
+$db = MysqlDb::getInstance(DB_HOST,DB_USER,DB_PWD,DB_NAME,DB_PORT,DB_CHARSET);
 
-var_dump($link);
+var_dump($db);
 ?>
