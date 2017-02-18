@@ -12,24 +12,29 @@ class MysqlDb
     static private $instance;
 
     // 连接数据库
-    private function __construct($host, $username, $password,)
+    private function __construct($host, $username, $password, $dbname, $port='3306', $charset='utf8')
     {
-        $this->link = mysql_connect($host, $username, $password);
-        $this->query("SET NAMES 'utf8'", $this->link);
+        $this->link = mysql_connect($host.':'.$port, $username, $password);
+        $this->query("SET NAMES {$charset}", $this->link);
         //echo mysql_errno($this->link) . ": " . mysql_error($link). "n";
         //var_dump($this->link);
+        $this->select_db($dbname);
         return $this->link;
     }
+
+
     private function __clone()
     {
     }
-    public static function get_class_nmdb($host, $username, $password)
+
+
+    public static function getInstance($host, $username, $password, $dbname, $port='3306', $charset='utf8')
     {
         //$connector = new nmdb($host, $username, $password);
         //return $connector;
 
         if (FALSE == (self::$instance instanceof self)) {
-            self::$instance = new self($host, $username, $password);
+            self::$instance = new self($host, $username, $password, $dbname, $port='3306', $charset='utf8');
         }
         return self::$instance;
     }
