@@ -7,5 +7,4 @@ include 'config/config.php';
 define('GI', str_replace("\\", '/', dirname(__FILE__)));
 $conn=new Connect(DB_HOST,DB_USER,DB_PWD,DB_NAME,DB_PORT);
 
-print_r($conn);
 ?>

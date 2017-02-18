@@ -5,3 +5,9 @@ define('DB_USER','homestead');
 define('DB_PWD','secret');
 //define('DB_CHARSET','utf8');
 define('DB_PORT','3306');
+
+
+require_once '../class/MysqlDb.php';
+$db = new MysqlDb();
+$link = $db->link;
+var_dump($link);
