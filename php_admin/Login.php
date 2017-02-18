@@ -1,5 +1,6 @@
 <?php
-include("../config.php");
+//include("../config.php");
+include('../config/config.php');
 include(GI."/include/Header.php");
 include(GI."/include/Function.php");
 include(GI."/class/AdminUser.php");
